@@ -1,0 +1,27 @@
+
+.search-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+ 
+.search-page h2 {
+  margin: 0 0 -8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+ 
+.search-page__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.search-page__results {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+ 
+.search-page__results h2 {
+  margin: 0;
+}

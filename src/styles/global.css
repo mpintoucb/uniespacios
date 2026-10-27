@@ -14,16 +14,18 @@ body {
  
 .page {
   padding: 24px;
+  padding-bottom: 96px;
 }
  
 .page h1 {
   font-size: 24px;
   font-weight: 600;
-  margin: 0 0 4px;
+  margin: 0 0 6px;
 }
  
 .page p {
   margin: 0;
+  font-size: 14px;
   color: var(--color-muted);
 }
 
