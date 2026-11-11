@@ -1,0 +1,22 @@
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-row__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.detail-row__value {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.detail-row__value--success {
+  color: var(--color-success);
+}

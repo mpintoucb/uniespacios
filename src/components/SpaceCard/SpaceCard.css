@@ -6,7 +6,7 @@
   border-radius: 12px;
   background: var(--color-surface);
 }
- 
+
 .card__thumb {
   display: grid;
   place-items: center;
@@ -19,24 +19,24 @@
   font-weight: 600;
   color: var(--color-primary);
 }
- 
+
 .card__body {
   display: flex;
   flex-direction: column;
   gap: 6px;
   flex: 1;
 }
- 
+
 .card__title {
   font-size: 16px;
   font-weight: 600;
 }
- 
+
 .card__info {
   font-size: 13px;
   color: var(--color-muted);
 }
- 
+
 .card__badge {
   align-self: flex-start;
   padding: 4px 12px;
@@ -47,10 +47,11 @@
   font-weight: 600;
   color: var(--color-muted);
 }
- 
+
 .card__link {
   align-self: flex-end;
   font-size: 13px;
   font-weight: 600;
   color: var(--color-primary);
+  text-decoration: none;
 }

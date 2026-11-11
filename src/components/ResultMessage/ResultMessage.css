@@ -1,0 +1,39 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.result__icon {
+  display: grid;
+  place-items: center;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.result--success .result__icon {
+  background: var(--color-success-bg);
+  border-color: var(--color-success-border);
+  color: var(--color-success);
+}
+
+.result--cancel .result__icon {
+  background: var(--color-danger-bg);
+  border-color: var(--color-danger-border);
+  color: var(--color-danger);
+}
+
+.page .result__title {
+  margin: 0;
+}
+
+.page .result__text {
+  margin: 0;
+}

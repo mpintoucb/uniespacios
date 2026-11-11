@@ -1,11 +1,11 @@
-   import './Button.css'
+import './Button.css'
+
 function Button({ children, variant = 'primary', onClick }) {
   return (
     <button type="button" className={`btn btn--${variant}`} onClick={onClick}>
-
       {children}
     </button>
   )
 }
- 
+
 export default Button

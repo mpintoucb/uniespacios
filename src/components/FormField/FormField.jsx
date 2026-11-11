@@ -11,7 +11,13 @@ function FormField({ label, type = 'text', defaultValue, options, value, onChang
           ))}
         </select>
       ) : (
-        <input className="field__input" type={type} defaultValue={defaultValue} />
+        <input
+          className="field__input"
+          type={type}
+          defaultValue={defaultValue}
+          value={value}
+          onChange={onChange}
+        />
       )}
     </label>
   )

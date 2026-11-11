@@ -1,0 +1,9 @@
+.results-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.results-page h1 {
+  margin: 0;
+}

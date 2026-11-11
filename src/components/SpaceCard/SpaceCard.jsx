@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom'
 import './SpaceCard.css'
  
-function SpaceCard({ initials, name, capacity, building }) {
+function SpaceCard({ initials, name, capacity, building, to }) {
   return (
     <article className="card">
       <span className="card__thumb">{initials}</span>
@@ -8,7 +9,7 @@ function SpaceCard({ initials, name, capacity, building }) {
         <strong className="card__title">{name}</strong>
         <span className="card__info">{capacity} personas · {building}</span>
         <span className="card__badge">Disponible</span>
-        <span className="card__link">Ver detalle →</span>
+        <Link className="card__link" to={to}>Ver detalle →</Link>
       </div>
     </article>
   )

@@ -8,18 +8,18 @@
   font-weight: 600;
   cursor: pointer;
 }
- 
+
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-surface);
 }
- 
+
 .btn--secondary {
   background: var(--color-surface);
   color: var(--color-text);
   border-color: var(--color-border);
 }
- 
+
 .btn--danger {
   background: var(--color-danger);
   color: var(--color-surface);

@@ -10,5 +10,8 @@
   --color-info-bg: #eff6ff;
   --color-info-border: #bfdbfe;
   --color-danger-bg: #fef2f2;
+  --color-danger-border: #fecaca;
+  --color-success-bg: #f0fdf4;
+  --color-success-border: #bbf7d0;
   --radius: 9px;
 }

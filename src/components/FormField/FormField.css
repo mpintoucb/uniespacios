@@ -3,13 +3,13 @@
   flex-direction: column;
   gap: 8px;
 }
- 
+
 .field__label {
   font-size: 13px;
   font-weight: 500;
   color: var(--color-muted);
 }
- 
+
 .field__input {
   height: 48px;
   padding: 0 14px;
