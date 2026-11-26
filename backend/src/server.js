@@ -1,10 +1,12 @@
 import express from 'express'
+import cors from 'cors'
 import spacesRouter from './routes/spaces.routes.js'
 import reservationsRouter from './routes/reservations.routes.js'
  
 const app = express()
 const PORT = 3000
  
+app.use(cors())
 app.use(express.json())
  
 app.get('/api/health', (req, res) => {
